@@ -333,3 +333,51 @@ img { display: block; max-width: 100%; }
   .product-card { min-height: 540px; }
   .foundation-callout { padding: 28px 22px; }
 }
+
+/* Professional portfolio details */
+.project-status,
+.case-stage,
+.case-status {
+  display: inline-flex;
+  width: fit-content;
+  padding: 5px 9px;
+  border: 1px solid #c9bdc3;
+  border-radius: 999px;
+  background: #fff9fb;
+  color: #765d69;
+  font: 700 9px/1 Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.project-status { margin: 0 0 12px; }
+.product-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 25px; }
+.product-links a { font-size: 14px; font-weight: 600; text-underline-offset: 5px; }
+.case-card { position: relative; }
+.case-status { position: absolute; z-index: 2; top: 14px; left: 14px; background: rgba(255,253,253,.92); backdrop-filter: blur(8px); }
+.case-footer a { border-bottom: 1px solid currentColor; padding: 5px 0; font-weight: 600; text-decoration: none; }
+
+.case-study-section { scroll-margin-top: 70px; }
+.featured-case { scroll-margin-top: 95px; padding: clamp(28px, 5vw, 58px); border: 1px solid #ded6da; border-radius: 18px; background: #fffdfd; }
+.featured-case + .featured-case { margin-top: 34px; }
+.featured-case-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 30px; margin-bottom: 35px; }
+.case-kicker { margin: 0 0 9px; color: #765d69; font: 700 10px/1.4 Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .1em; }
+.featured-case h3 { margin: 0; font-size: clamp(44px, 6vw, 76px); line-height: .95; letter-spacing: -.055em; }
+.featured-case-image { width: 100%; border: 1px solid #ded6da; border-radius: 12px; }
+.museum-visuals { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.museum-visuals img { width: 100%; border: 1px solid #ded6da; border-radius: 12px; }
+.case-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 0 42px; margin-top: 38px; border-top: 1px solid #ded6da; }
+.case-facts section { padding: 26px 0; border-bottom: 1px solid #ded6da; }
+.case-facts h4 { margin: 0 0 9px; color: #765d69; font: 700 10px/1 Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: .1em; }
+.case-facts p { margin: 0; color: #51494d; font-size: 16px; }
+.case-bottom { display: flex; align-items: center; justify-content: space-between; gap: 25px; margin-top: 27px; }
+.case-bottom p { margin: 0; color: #766c71; font-size: 12px; }
+.case-bottom a { white-space: nowrap; font-size: 14px; font-weight: 600; text-underline-offset: 5px; }
+
+@media (max-width: 700px) {
+  .featured-case { padding: 24px 18px; }
+  .featured-case-head { display: block; }
+  .case-stage { margin-top: 16px; }
+  .museum-visuals, .case-facts { grid-template-columns: 1fr; }
+  .case-bottom { display: block; }
+  .case-bottom a { display: inline-block; margin-top: 15px; }
+}

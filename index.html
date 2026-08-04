@@ -40,7 +40,7 @@
         <div class="hero-meta reveal">
           <span>Meredith Ma</span>
           <span>Software / AI / Interaction</span>
-          <span>Available for thoughtful work</span>
+          <span>Open to software, AI/ML &amp; interaction design roles</span>
         </div>
         <div class="hero-copy">
           <p class="eyebrow reveal">Software engineer × cognitive scientist × interaction designer</p>
@@ -71,10 +71,14 @@
             </div>
             <div class="product-copy">
               <div class="project-number">01</div>
+              <span class="project-status">Shipped MVP</span>
               <h3>ChoiceMap</h3>
               <p>A decision journal for comparing options, examining assumptions, and reviewing outcomes later.</p>
               <div class="tags"><span>Flask</span><span>Decision-making</span><span>Web</span></div>
-              <a href="https://github.com/moliere73/choicemap" target="_blank" rel="noreferrer">View repository ↗</a>
+              <div class="product-links">
+                <a href="#case-study-choicemap">Read case study ↓</a>
+                <a href="https://github.com/moliere73/choicemap" target="_blank" rel="noreferrer">Repository ↗</a>
+              </div>
             </div>
           </article>
 
@@ -86,6 +90,7 @@
             </div>
             <div class="product-copy">
               <div class="project-number">02</div>
+              <span class="project-status">Shipped prototype</span>
               <h3>Tiny Museum</h3>
               <p>A private Mac space for personal objects, daily notes, memories, and small experiments.</p>
               <div class="tags"><span>SwiftUI</span><span>SwiftData</span><span>macOS</span></div>
@@ -100,6 +105,7 @@
             </div>
             <div class="product-copy">
               <div class="project-number">03</div>
+              <span class="project-status">Prototype</span>
               <h3>DayPalette</h3>
               <p>A visual diary that turns each day into one color and one optional word.</p>
               <div class="tags"><span>SwiftUI</span><span>Visual reflection</span><span>Product</span></div>
@@ -115,6 +121,7 @@
             </div>
             <div class="product-copy">
               <div class="project-number">04</div>
+              <span class="project-status">Shipped prototype</span>
               <h3>Later Box</h3>
               <p>A private app for sending thoughts to your future self and meeting them again at the right time.</p>
               <div class="tags"><span>Swift</span><span>Reflection</span><span>Local-first</span></div>
@@ -142,36 +149,91 @@
 
         <div class="case-grid">
           <article class="case-card reveal" data-category="research" data-project="character-cafe">
+            <span class="case-status">Research prototype</span>
             <img src="assets/cards/character-cafe.svg" alt="Character Cafe project cover" />
             <div class="case-footer"><span>Mixed-methods research game</span><button type="button" data-open-project>Quick view +</button></div>
           </article>
           <article class="case-card reveal" data-category="research" data-project="museum-mistakes">
+            <span class="case-status">Playtested</span>
             <img src="assets/cards/museum-mistakes.svg" alt="Museum of Mistakes project cover" />
-            <div class="case-footer"><span>Participatory experience</span><button type="button" data-open-project>Quick view +</button></div>
+            <div class="case-footer"><span>Participatory experience</span><a href="#case-study-museum">Case study ↓</a></div>
           </article>
           <article class="case-card reveal" data-category="learning" data-project="monster-vs-monster">
+            <span class="case-status">Playtested</span>
             <img src="assets/cards/monster-vs-monster.svg" alt="Monster vs Monster project cover" />
             <div class="case-footer"><span>Learning experience design</span><button type="button" data-open-project>Quick view +</button></div>
           </article>
           <article class="case-card reveal" data-category="research" data-project="library-seat">
+            <span class="case-status">Product proposal</span>
             <img src="assets/cards/library-seat.svg" alt="Smart Library Seat Finder project cover" />
             <div class="case-footer"><span>Product and information design</span><button type="button" data-open-project>Quick view +</button></div>
           </article>
           <article class="case-card reveal" data-category="immersive" data-project="raging-chef">
+            <span class="case-status">Playable prototype</span>
             <img src="assets/cards/raging-chef.svg" alt="The Raging Chef project cover" />
             <div class="case-footer"><span>VR interaction programming</span><button type="button" data-open-project>Quick view +</button></div>
           </article>
           <article class="case-card reveal" data-category="immersive" data-project="murder-mansion">
+            <span class="case-status">Playable prototype</span>
             <img src="assets/cards/murder-mansion.svg" alt="Murder Mansion project cover" />
             <div class="case-footer"><span>Cooperative AR system</span><button type="button" data-open-project>Quick view +</button></div>
           </article>
         </div>
       </section>
 
+      <section class="section case-study-section" id="case-studies" aria-labelledby="case-studies-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">03 / Selected case studies</p>
+            <h2 id="case-studies-title">A closer<br />look.</h2>
+          </div>
+          <p>Two projects showing how I frame a problem, reduce complexity, test assumptions, and turn insight into a usable experience.</p>
+        </div>
+
+        <article class="featured-case reveal" id="case-study-choicemap">
+          <div class="featured-case-head">
+            <div>
+              <p class="case-kicker">Independent product · 2026</p>
+              <h3>ChoiceMap</h3>
+            </div>
+            <span class="case-stage">Shipped MVP</span>
+          </div>
+          <img class="featured-case-image" src="assets/case-studies/choicemap-interface.svg" alt="ChoiceMap interface preview showing a decision question, options, and confidence rating" />
+          <div class="case-facts">
+            <section><h4>Problem</h4><p>Important decisions often become exhausting because options, feelings, risks, and assumptions are held in memory at once.</p></section>
+            <section><h4>Role</h4><p>Independent product designer and developer across scoping, interaction design, implementation, and testing.</p></section>
+            <section><h4>Approach</h4><p>I reduced the flow to four calm steps: frame the question, compare optional criteria, reflect on possible biases, and record a choice.</p></section>
+            <section><h4>Result</h4><p>A working Flask and SQLite MVP that requires only a question and two options while leaving every deeper prompt optional.</p></section>
+          </div>
+          <div class="case-bottom"><p>Flask · SQLite · HTML/CSS · Decision-making · Cognitive load</p><a href="https://github.com/moliere73/choicemap" target="_blank" rel="noreferrer">View code ↗</a></div>
+        </article>
+
+        <article class="featured-case reveal" id="case-study-museum">
+          <div class="featured-case-head">
+            <div>
+              <p class="case-kicker">Participatory experience · Team project · 2026</p>
+              <h3>Museum of Mistakes</h3>
+            </div>
+            <span class="case-stage">Playtested</span>
+          </div>
+          <div class="museum-visuals">
+            <img src="assets/case-studies/museum-title.webp" alt="Museum of Mistakes presentation title: A living gallery of growth through failure" />
+            <img src="assets/case-studies/museum-playtest.webp" alt="Museum of Mistakes playtest findings about sustaining engagement" />
+          </div>
+          <div class="case-facts">
+            <section><h4>Problem</h4><p>Students new to HCI can experience failure as isolating, while power dynamics make open discussion feel risky.</p></section>
+            <section><h4>Role</h4><p>Co-designer and playtest researcher on a five-person team developing the activity, materials, and iteration strategy.</p></section>
+            <section><h4>Approach</h4><p>Participants anonymously create artifacts about mistakes, explore a shared gallery, and respond through reflection and playful curator cards.</p></section>
+            <section><h4>Iteration</h4><p>Testing revealed that the gallery could become static, so we designed phased revelation and ongoing commentary to create reasons to return.</p></section>
+          </div>
+          <div class="case-bottom"><p>Participatory design · Facilitation · Behavioral design · Playtesting</p><a href="#design">Back to design work ↑</a></div>
+        </article>
+      </section>
+
       <section class="section research-section" id="research" aria-labelledby="research-title">
         <div class="section-heading reveal">
           <div>
-            <p class="section-index">03 / AI + cognitive research</p>
+            <p class="section-index">04 / AI + cognitive research</p>
             <h2 id="research-title">How people<br />and models see.</h2>
           </div>
           <p>Projects connecting language, perception, collective memory, professional identity, and multimodal AI.</p>
@@ -214,7 +276,7 @@
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="about-mark reveal" aria-hidden="true">M</div>
         <div class="about-copy reveal">
-          <p class="section-index">04 / About</p>
+          <p class="section-index">05 / About</p>
           <h2 id="about-title">Software with a point of view.</h2>
           <p class="about-lead">I’m Meredith, a Carnegie Mellon Cognitive Science graduate who likes working between engineering, research, and product design.</p>
           <p>I care about calm interfaces, low cognitive load, ethical data practices, and tools that leave room for human judgment. My projects move between Swift, Python, AI/ML, Unity, qualitative research, and playful physical prototypes.</p>
@@ -237,6 +299,7 @@
       </div>
       <div class="footer-links">
         <a href="mailto:maqianxun37@gmail.com">maqianxun37@gmail.com</a>
+        <a href="https://www.linkedin.com/in/merema/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="https://github.com/moliere73" target="_blank" rel="noreferrer">GitHub</a>
         <a href="#top">Back to top ↑</a>
       </div>

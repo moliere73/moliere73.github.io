@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">ChoiceMap decision form interface</title>
+  <desc id="desc">A product preview showing a decision question, three options, confidence, and optional criteria.</desc>
+  <rect width="1200" height="760" rx="28" fill="#f5f1e8"/>
+  <rect x="36" y="30" width="1128" height="700" rx="22" fill="#fffdf8" stroke="#d9d4c9" stroke-width="2"/>
+  <text x="78" y="88" fill="#1f2a24" font-family="Georgia,serif" font-size="30" font-weight="700">Choice<tspan fill="#d85d3f">Map</tspan></text>
+  <text x="78" y="156" fill="#335d4b" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">STEP 1 OF 4</text>
+  <text x="78" y="224" fill="#1f2a24" font-family="Georgia,serif" font-size="54" font-weight="700">What are you deciding?</text>
+  <text x="78" y="262" fill="#667169" font-family="Arial,sans-serif" font-size="21">Add a question and at least two options.</text>
+  <text x="78" y="326" fill="#1f2a24" font-family="Arial,sans-serif" font-size="17" font-weight="700">Decision question</text>
+  <rect x="78" y="344" width="708" height="82" rx="12" fill="#fff" stroke="#d9d4c9" stroke-width="2"/>
+  <text x="100" y="383" fill="#1f2a24" font-family="Arial,sans-serif" font-size="19">Where should I live next?</text>
+  <text x="78" y="475" fill="#1f2a24" font-family="Arial,sans-serif" font-size="17" font-weight="700">Options</text>
+  <rect x="78" y="493" width="340" height="55" rx="10" fill="#fff" stroke="#d9d4c9" stroke-width="2"/>
+  <rect x="435" y="493" width="351" height="55" rx="10" fill="#fff" stroke="#d9d4c9" stroke-width="2"/>
+  <rect x="78" y="565" width="340" height="55" rx="10" fill="#fff" stroke="#d9d4c9" stroke-width="2"/>
+  <text x="99" y="528" fill="#1f2a24" font-family="Arial,sans-serif" font-size="18">San Francisco</text>
+  <text x="456" y="528" fill="#1f2a24" font-family="Arial,sans-serif" font-size="18">New York</text>
+  <text x="99" y="600" fill="#1f2a24" font-family="Arial,sans-serif" font-size="18">Pittsburgh</text>
+  <rect x="832" y="344" width="280" height="276" rx="18" fill="#eef3ef"/>
+  <text x="862" y="389" fill="#335d4b" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">CONFIDENCE</text>
+  <text x="862" y="458" fill="#d85d3f" font-family="Georgia,serif" font-size="64" font-weight="700">62%</text>
+  <line x1="862" y1="498" x2="1080" y2="498" stroke="#c8d4cc" stroke-width="8" stroke-linecap="round"/>
+  <line x1="862" y1="498" x2="998" y2="498" stroke="#335d4b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="998" cy="498" r="13" fill="#fffdf8" stroke="#335d4b" stroke-width="5"/>
+  <text x="862" y="553" fill="#667169" font-family="Arial,sans-serif" font-size="16">The score guides reflection.</text>
+  <text x="862" y="579" fill="#667169" font-family="Arial,sans-serif" font-size="16">It never chooses for you.</text>
+  <rect x="910" y="653" width="202" height="48" rx="24" fill="#1f2a24"/>
+  <text x="948" y="684" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Compare →</text>
+</svg>
