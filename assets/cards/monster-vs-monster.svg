@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Monster vs Monster project card">
+  <rect x="8" y="8" width="580" height="296" rx="24" fill="#D9CBFF" stroke="#111" stroke-width="7"/>
+  <text x="38" y="56" font-family="Courier New,monospace" font-size="13" font-weight="700" letter-spacing="2">LEARNING THROUGH MAKING</text>
+  <text x="34" y="111" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="900" letter-spacing="-1.5">Monster vs Monster</text>
+  <text x="38" y="143" font-family="Arial,Helvetica,sans-serif" font-size="17">build, compare + defend</text>
+  <g transform="translate(395 38)" stroke="#111" stroke-width="5">
+    <path d="M17 118q-18-40 16-68t77-6q39-26 70 8t3 72q15 46-35 61t-78-8q-47 16-53-29z" fill="#7DDB8B"/>
+    <circle cx="75" cy="91" r="22" fill="#fff"/><circle cx="75" cy="91" r="8" fill="#111"/>
+    <circle cx="125" cy="78" r="18" fill="#fff"/><circle cx="125" cy="78" r="7" fill="#111"/>
+    <path d="M72 131q30 22 61-2" fill="none" stroke-linecap="round"/>
+    <path d="M25 44L8 18M162 42l19-25M40 160l-25 24M155 158l24 25" fill="none" stroke-linecap="round"/>
+  </g>
+  <g font-family="Courier New,monospace" font-size="12" font-weight="700">
+    <rect x="36" y="253" width="113" height="27" rx="13" fill="#7DDB8B"/><text x="53" y="271">PROTOTYPING</text>
+    <rect x="159" y="253" width="105" height="27" rx="13" fill="#FFF08A"/><text x="177" y="271">USER TESTING</text>
+    <rect x="274" y="253" width="99" height="27" rx="13" fill="#FFB3D7"/><text x="291" y="271">LEARNING</text>
+  </g>
+</svg>

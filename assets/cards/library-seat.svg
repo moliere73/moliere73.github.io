@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Smart Library Seat Finder project card">
+  <rect x="8" y="8" width="580" height="296" rx="24" fill="#C9DEFF" stroke="#111" stroke-width="7"/>
+  <text x="38" y="56" font-family="Courier New,monospace" font-size="13" font-weight="700" letter-spacing="2">STUDENT-DRIVEN PRODUCT</text>
+  <text x="34" y="108" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="900" letter-spacing="-2">Smart Library Seats</text>
+  <text x="38" y="140" font-family="Arial,Helvetica,sans-serif" font-size="17">find a place before losing time</text>
+  <g transform="translate(390 42)" stroke="#111" stroke-width="5">
+    <rect width="155" height="164" rx="17" fill="#F8F8F2"/>
+    <path d="M24 32h107M24 62h107M24 92h107M24 122h107" stroke-width="3"/>
+    <circle cx="42" cy="47" r="10" fill="#69D27D"/><circle cx="84" cy="47" r="10" fill="#FFCE55"/><circle cx="122" cy="47" r="10" fill="#FF6B5F"/>
+    <circle cx="42" cy="77" r="10" fill="#69D27D"/><circle cx="84" cy="77" r="10" fill="#69D27D"/><circle cx="122" cy="77" r="10" fill="#FF6B5F"/>
+    <circle cx="42" cy="107" r="10" fill="#FFCE55"/><circle cx="84" cy="107" r="10" fill="#69D27D"/><circle cx="122" cy="107" r="10" fill="#69D27D"/>
+  </g>
+  <g font-family="Courier New,monospace" font-size="12" font-weight="700">
+    <rect x="36" y="253" width="105" height="27" rx="13" fill="#69D27D"/><text x="54" y="271">UX RESEARCH</text>
+    <rect x="151" y="253" width="114" height="27" rx="13" fill="#FFCE55"/><text x="168" y="271">PRODUCT DESIGN</text>
+    <rect x="275" y="253" width="101" height="27" rx="13" fill="#FFB3D7"/><text x="291" y="271">ROADMAP</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Meredith Ma portfolio">
+  <rect width="1200" height="630" fill="#ffb3d7"/>
+  <path d="M0 60h1200M0 120h1200M0 180h1200M0 240h1200M0 300h1200M0 360h1200M0 420h1200M0 480h1200" stroke="#111" opacity=".09"/>
+  <path d="M60 0v520M120 0v520M180 0v520M240 0v520M300 0v520M360 0v520M420 0v520M480 0v520M540 0v520M600 0v520M660 0v520M720 0v520M780 0v520M840 0v520M900 0v520M960 0v520M1020 0v520M1080 0v520M1140 0v520" stroke="#111" opacity=".09"/>
+  <text x="54" y="74" font-family="Courier New,monospace" font-size="18" font-weight="700" letter-spacing="4">MEREDITH MA / PORTFOLIO</text>
+  <text x="45" y="360" font-family="Arial,Helvetica,sans-serif" font-size="168" font-weight="900" letter-spacing="-10">meredith ma</text>
+  <rect x="50" y="400" width="194" height="56" rx="28" fill="#fff08a" stroke="#111" stroke-width="4"/><text x="77" y="436" font-family="Courier New,monospace" font-size="17" font-weight="700">SOFTWARE</text>
+  <rect x="258" y="400" width="145" height="56" rx="28" fill="#b9e7ff" stroke="#111" stroke-width="4"/><text x="291" y="436" font-family="Courier New,monospace" font-size="17" font-weight="700">AI / ML</text>
+  <rect x="417" y="400" width="145" height="56" rx="28" fill="#bff3d0" stroke="#111" stroke-width="4"/><text x="451" y="436" font-family="Courier New,monospace" font-size="17" font-weight="700">UI / UX</text>
+  <rect x="0" y="520" width="1200" height="110" fill="#111"/>
+  <text x="54" y="582" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700">Small tools for clearer days.</text>
+  <text x="1146" y="582" fill="#ffb3d7" text-anchor="end" font-family="Courier New,monospace" font-size="17" font-weight="700">MOLIERE73.GITHUB.IO</text>
+</svg>
