@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Meredith Ma is a software engineer and interaction designer working across AI, cognitive science, product, and HCI." />
-    <meta name="theme-color" content="#ffb3d7" />
+    <meta name="theme-color" content="#fcebf3" />
     <meta property="og:title" content="Meredith Ma — Software, AI & Interaction Design" />
     <meta property="og:description" content="A portfolio of thoughtful software, AI research, and playful interaction design." />
     <meta property="og:type" content="website" />
@@ -12,6 +12,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <title>Meredith Ma — Software, AI & Interaction Design</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/meredith-graduation.webp" as="image" type="image/webp" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -36,7 +37,6 @@
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div>
         <div class="hero-meta reveal">
           <span>Meredith Ma</span>
           <span>Software / AI / Interaction</span>
@@ -51,12 +51,10 @@
             <a class="button button-light" href="#design">Design work <span>↘</span></a>
           </div>
         </div>
-        <div class="hero-sticker sticker-one" aria-hidden="true">AI / ML</div>
-        <div class="hero-sticker sticker-two" aria-hidden="true">UI / UX</div>
-        <div class="hero-symbol" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-        <a class="scroll-note" href="#work">Scroll to browse <span>↘</span></a>
+        <figure class="hero-photo reveal">
+          <img src="assets/meredith-graduation.webp" alt="Meredith holding her Carnegie Mellon diploma at graduation" width="1400" height="1050" />
+          <figcaption>Carnegie Mellon University · Cognitive Science</figcaption>
+        </figure>
       </section>
 
       <section class="section work-section" id="work" aria-labelledby="work-title">
