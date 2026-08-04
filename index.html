@@ -30,6 +30,7 @@
         <a href="#work">Work</a>
         <a href="#design">Design</a>
         <a href="#research">Research</a>
+        <a href="#fun">Fun</a>
         <a href="#about">About</a>
       </nav>
       <a class="header-link" href="mailto:maqianxun37@gmail.com">Contact ↗</a>
@@ -273,10 +274,71 @@
         </div>
       </section>
 
+      <section class="section fun-section" id="fun" aria-labelledby="fun-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">05 / For fun</p>
+            <h2 id="fun-title">Away from<br />the screen.</h2>
+          </div>
+          <p>Personal studies in anatomy, observation, architecture, color, and imagined places. Select any piece to view it larger.</p>
+        </div>
+
+        <div class="art-grid">
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/anatomical-heart.webp" data-art-title="Anatomical Heart" aria-label="View Anatomical Heart larger">
+              <img src="assets/art/anatomical-heart.webp" alt="Painted anatomical study of a human heart in red, pink, and pale blue" width="1536" height="1536" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Anatomical Heart</span><i>🫀</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/floral-window.webp" data-art-title="Floral Window" aria-label="View Floral Window larger">
+              <img src="assets/art/floral-window.webp" alt="Detailed white line drawing of flowers and plants against a black background" width="1026" height="1536" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Floral Window</span><i>💐</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/merry-christmas.webp" data-art-title="Merry Christmas" aria-label="View Merry Christmas larger">
+              <img src="assets/art/merry-christmas.webp" alt="Expressive Christmas tree painting with snow on a black background" width="1536" height="1536" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Merry Christmas</span><i>✦</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/rooftops.webp" data-art-title="Rooftops" aria-label="View Rooftops larger">
+              <img src="assets/art/rooftops.webp" alt="Black ink architectural drawing of tightly layered European rooftops" width="1536" height="1152" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Rooftops</span><i>101</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/candy-study.webp" data-art-title="Candy Study" aria-label="View Candy Study larger">
+              <img src="assets/art/candy-study.webp" alt="Pastel color study of bright wrapped candies" width="1600" height="1600" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Candy Study</span><i>🍬</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/hand-studies.webp" data-art-title="Hand Studies" aria-label="View Hand Studies larger">
+              <img src="assets/art/hand-studies.webp" alt="Graphite studies of hands holding and drawing with pencils" width="1125" height="1600" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Hand Studies</span><i>👋</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/mountain-garden.webp" data-art-title="Mountain Garden" aria-label="View Mountain Garden larger">
+              <img src="assets/art/mountain-garden.webp" alt="Sketchbook landscape combining a garden, mountains, trees, and architectural studies" width="1320" height="938" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Mountain Garden</span><i>🌲</i></figcaption>
+          </figure>
+          <figure class="art-piece reveal">
+            <button class="art-button" type="button" data-art-src="assets/art/shoreline.webp" data-art-title="Shoreline" aria-label="View Shoreline larger">
+              <img src="assets/art/shoreline.webp" alt="Soft abstract shoreline study in sand brown and blue gray" width="1536" height="1100" loading="lazy" decoding="async" />
+            </button>
+            <figcaption><span>Shoreline</span><i>🌊</i></figcaption>
+          </figure>
+        </div>
+      </section>
+
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="about-mark reveal" aria-hidden="true">M</div>
         <div class="about-copy reveal">
-          <p class="section-index">05 / About</p>
+          <p class="section-index">06 / About</p>
           <h2 id="about-title">Software with a point of view.</h2>
           <p class="about-lead">I’m Meredith, a Carnegie Mellon Cognitive Science graduate who likes working between engineering, research, and product design.</p>
           <p>I care about calm interfaces, low cognitive load, ethical data practices, and tools that leave room for human judgment. My projects move between Swift, Python, AI/ML, Unity, qualitative research, and playful physical prototypes.</p>
@@ -317,6 +379,12 @@
         <section><h3>Iteration</h3><p data-dialog-outcome></p></section>
         <section><h3>Methods</h3><p data-dialog-tools></p></section>
       </div>
+    </dialog>
+
+    <dialog class="art-dialog" data-art-dialog aria-labelledby="art-dialog-title">
+      <button class="art-dialog-close" type="button" data-close-art aria-label="Close artwork viewer">×</button>
+      <img data-art-image src="assets/art/anatomical-heart.webp" alt="" />
+      <p id="art-dialog-title" data-art-caption></p>
     </dialog>
   </body>
 </html>

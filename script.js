@@ -107,6 +107,20 @@ document.querySelectorAll("[data-open-project]").forEach(button => button.addEve
 document.querySelector("[data-close-dialog]")?.addEventListener("click", () => dialog?.close());
 dialog?.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
 
+const artDialog = document.querySelector("[data-art-dialog]");
+const artDialogImage = artDialog?.querySelector("[data-art-image]");
+const artDialogCaption = artDialog?.querySelector("[data-art-caption]");
+document.querySelectorAll("[data-art-src]").forEach(button => button.addEventListener("click", () => {
+  if (!artDialog || !artDialogImage || !artDialogCaption) return;
+  const thumbnail = button.querySelector("img");
+  artDialogImage.src = button.dataset.artSrc;
+  artDialogImage.alt = thumbnail?.alt || button.dataset.artTitle || "Artwork";
+  artDialogCaption.textContent = button.dataset.artTitle || "Artwork";
+  artDialog.showModal();
+}));
+document.querySelector("[data-close-art]")?.addEventListener("click", () => artDialog?.close());
+artDialog?.addEventListener("click", event => { if (event.target === artDialog) artDialog.close(); });
+
 const sections = document.querySelectorAll("main section[id]");
 const navLinks = document.querySelectorAll(".site-nav a");
 const sectionObserver = new IntersectionObserver(entries => {
