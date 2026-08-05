@@ -72,6 +72,14 @@
 }
 
 @font-face {
+  font-family: "DM Sans Variable";
+  src: url("assets/fonts/dm-sans-latin-variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Instrument Serif";
   src: url("assets/fonts/instrument-serif-latin-400-italic.woff2") format("woff2");
   font-style: italic;
@@ -98,7 +106,7 @@
 :root {
   --font-sans: "Manrope Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Newsreader Variable", "Iowan Old Style", Georgia, serif;
-  --font-display: "Bricolage Grotesque Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "DM Sans Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-hero: var(--font-display);
   --ink: #111111;
   --paper: #fffdf8;
@@ -604,8 +612,8 @@ img { display: block; max-width: 100%; }
 .hero h1 {
   max-width: 900px;
   font-family: var(--font-hero);
-  font-weight: 620;
-  font-stretch: 94%;
+  font-weight: 600;
+  font-stretch: normal;
   font-optical-sizing: auto;
   font-variation-settings: normal;
   line-height: .92;
@@ -616,7 +624,7 @@ img { display: block; max-width: 100%; }
   font-family: var(--font-hero);
   font-style: normal;
   font-weight: 430;
-  font-stretch: 94%;
+  font-stretch: normal;
   font-variation-settings: normal;
   letter-spacing: -.035em;
 }
@@ -628,7 +636,7 @@ img { display: block; max-width: 100%; }
 .site-footer > div:first-child a {
   font-family: var(--font-display);
   font-weight: 560;
-  font-stretch: 96%;
+  font-stretch: normal;
   font-optical-sizing: auto;
   font-variation-settings: normal;
   letter-spacing: -.04em;
@@ -639,7 +647,7 @@ img { display: block; max-width: 100%; }
 .foundation-callout h3 {
   font-family: var(--font-display);
   font-weight: 590;
-  font-stretch: 96%;
+  font-stretch: normal;
   font-variation-settings: normal;
   letter-spacing: -.035em;
 }
