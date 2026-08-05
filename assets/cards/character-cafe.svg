@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Character Cafe project card">
   <rect x="8" y="8" width="580" height="296" rx="24" fill="#FFF0B8" stroke="#111" stroke-width="7"/>
   <rect x="20" y="20" width="560" height="276" rx="18" fill="none" stroke="#FF7E79" stroke-width="3" stroke-dasharray="8 8"/>
-  <text x="38" y="58" font-family="Courier New,monospace" font-size="13" font-weight="700" letter-spacing="2">MIXED-METHODS GAME</text>
-  <text x="34" y="119" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="900" letter-spacing="-2">Character Cafe</text>
-  <text x="38" y="151" font-family="Arial,Helvetica,sans-serif" font-size="17">choice, fairness + reasoning</text>
+  <text x="38" y="58" font-family="Helvetica Neue,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">MIXED-METHODS GAME</text>
+  <text x="34" y="119" font-family="Helvetica Neue,Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="-1.4">Character Cafe</text>
+  <text x="38" y="151" font-family="Helvetica Neue,Arial,sans-serif" font-size="17">choice, fairness + reasoning</text>
   <g transform="translate(380 54)" stroke="#111" stroke-width="5">
     <path d="M22 115h132l-12 70H34z" fill="#8EDCB1"/>
     <path d="M46 115c0-32 20-57 42-57s42 25 42 57" fill="#FFB3D7"/>
@@ -11,9 +11,9 @@
     <path d="M75 104q14 12 28 0" fill="none"/>
     <path d="M10 36h55M37 15v42M135 25l28 28M163 25l-28 28" fill="none" stroke-linecap="round"/>
   </g>
-  <g font-family="Courier New,monospace" font-size="12" font-weight="700">
-    <rect x="36" y="253" width="116" height="27" rx="13" fill="#FF7E79"/><text x="52" y="271">UX RESEARCH</text>
-    <rect x="162" y="253" width="105" height="27" rx="13" fill="#8EDCB1"/><text x="180" y="271">GAME DESIGN</text>
-    <rect x="277" y="253" width="94" height="27" rx="13" fill="#B9E7FF"/><text x="294" y="271">ETHICS</text>
+  <g font-family="Helvetica Neue,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".35" text-anchor="middle">
+    <rect x="36" y="253" width="116" height="27" rx="13" fill="#FF7E79"/><text x="94" y="271">UX RESEARCH</text>
+    <rect x="162" y="253" width="105" height="27" rx="13" fill="#8EDCB1"/><text x="214.5" y="271">GAME DESIGN</text>
+    <rect x="277" y="253" width="94" height="27" rx="13" fill="#B9E7FF"/><text x="324" y="271">ETHICS</text>
   </g>
 </svg>

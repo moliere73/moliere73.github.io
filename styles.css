@@ -47,6 +47,14 @@
 }
 
 @font-face {
+  font-family: "Space Grotesk Variable";
+  src: url("assets/fonts/space-grotesk-latin-variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Instrument Serif";
   src: url("assets/fonts/instrument-serif-latin-400-italic.woff2") format("woff2");
   font-style: italic;
@@ -73,7 +81,7 @@
 :root {
   --font-sans: "Manrope Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Newsreader Variable", "Iowan Old Style", Georgia, serif;
-  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-display: "Space Grotesk Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --ink: #111111;
   --paper: #fffdf8;
   --pink: #ffb3d7;
@@ -570,7 +578,7 @@ img { display: block; max-width: 100%; }
 .wordmark {
   font-family: var(--font-display);
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 650;
   letter-spacing: -.025em;
   font-variation-settings: normal;
 }
@@ -578,19 +586,19 @@ img { display: block; max-width: 100%; }
 .hero h1 {
   max-width: 900px;
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 600;
   font-optical-sizing: auto;
   font-variation-settings: normal;
-  line-height: .92;
-  letter-spacing: -.035em;
+  line-height: .94;
+  letter-spacing: -.045em;
 }
 
 .hero h1 em {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 430;
   font-variation-settings: normal;
-  letter-spacing: -.018em;
+  letter-spacing: -.035em;
 }
 
 .section-heading h2,
@@ -599,19 +607,19 @@ img { display: block; max-width: 100%; }
 .project-dialog > h2,
 .site-footer > div:first-child a {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 560;
   font-optical-sizing: auto;
   font-variation-settings: normal;
-  letter-spacing: -.02em;
+  letter-spacing: -.04em;
 }
 
 .product-copy h3,
 .research-row h3,
 .foundation-callout h3 {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 590;
   font-variation-settings: normal;
-  letter-spacing: -.012em;
+  letter-spacing: -.035em;
 }
 
 .about-copy .about-lead {

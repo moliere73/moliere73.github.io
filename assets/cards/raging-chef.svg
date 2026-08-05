@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="The Raging Chef project card">
   <rect x="8" y="8" width="580" height="296" rx="24" fill="#FF9C6B" stroke="#111" stroke-width="7"/>
-  <text x="38" y="56" font-family="Courier New,monospace" font-size="13" font-weight="700" letter-spacing="2">VR INTERACTION</text>
-  <text x="34" y="112" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="900" letter-spacing="-2">The Raging Chef</text>
-  <text x="38" y="144" font-family="Arial,Helvetica,sans-serif" font-size="17">throw, collide + break</text>
+  <text x="38" y="56" font-family="Helvetica Neue,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">VR INTERACTION</text>
+  <text x="34" y="112" font-family="Helvetica Neue,Arial,sans-serif" font-size="47" font-weight="700" letter-spacing="-1.4">The Raging Chef</text>
+  <text x="38" y="144" font-family="Helvetica Neue,Arial,sans-serif" font-size="17">throw, collide + break</text>
   <g transform="translate(365 45)" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round">
     <ellipse cx="108" cy="90" rx="68" ry="31" fill="#F8F8F2" transform="rotate(-22 108 90)"/>
     <ellipse cx="108" cy="90" rx="32" ry="12"/>
     <path d="M75 26L55 4M48 56L17 46M57 97L22 111M140 148l17 28"/>
     <path d="M89 71l37 36M126 72l-39 35" stroke="#FF4C43"/>
   </g>
-  <g font-family="Courier New,monospace" font-size="12" font-weight="700">
-    <rect x="36" y="253" width="71" height="27" rx="13" fill="#FFF08A"/><text x="53" y="271">UNITY</text>
-    <rect x="117" y="253" width="53" height="27" rx="13" fill="#FFB3D7"/><text x="135" y="271">C#</text>
-    <rect x="180" y="253" width="91" height="27" rx="13" fill="#B9E7FF"/><text x="198" y="271">VR PHYSICS</text>
+  <g font-family="Helvetica Neue,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".35" text-anchor="middle">
+    <rect x="36" y="253" width="71" height="27" rx="13" fill="#FFF08A"/><text x="71.5" y="271">UNITY</text>
+    <rect x="117" y="253" width="53" height="27" rx="13" fill="#FFB3D7"/><text x="143.5" y="271">C#</text>
+    <rect x="180" y="253" width="91" height="27" rx="13" fill="#B9E7FF"/><text x="225.5" y="271">VR PHYSICS</text>
   </g>
 </svg>
