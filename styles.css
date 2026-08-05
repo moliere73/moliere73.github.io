@@ -31,6 +31,22 @@
 }
 
 @font-face {
+  font-family: "Fraunces Variable";
+  src: url("assets/fonts/fraunces-latin-variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces Variable";
+  src: url("assets/fonts/fraunces-latin-variable-italic.woff2") format("woff2-variations");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Bodoni Moda Variable";
   src: url("assets/fonts/bodoni-moda-latin-variable-italic.woff2") format("woff2-variations");
   font-style: italic;
@@ -41,7 +57,7 @@
 :root {
   --font-sans: "Manrope Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Newsreader Variable", "Iowan Old Style", Georgia, serif;
-  --font-display: "Bodoni Moda Variable", "Bodoni 72", Didot, "Times New Roman", serif;
+  --font-display: "Fraunces Variable", "Iowan Old Style", Georgia, serif;
   --ink: #111111;
   --paper: #fffdf8;
   --pink: #ffb3d7;
@@ -538,24 +554,27 @@ img { display: block; max-width: 100%; }
 .wordmark {
   font-family: var(--font-display);
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 650;
   letter-spacing: -.025em;
+  font-variation-settings: "SOFT" 35, "WONK" 1;
 }
 
 .hero h1 {
   max-width: 900px;
   font-family: var(--font-display);
-  font-weight: 520;
+  font-weight: 580;
   font-optical-sizing: auto;
-  line-height: .88;
-  letter-spacing: -.052em;
+  font-variation-settings: "SOFT" 28, "WONK" 1;
+  line-height: .9;
+  letter-spacing: -.045em;
 }
 
 .hero h1 em {
   font-family: var(--font-display);
   font-style: italic;
-  font-weight: 430;
-  letter-spacing: -.035em;
+  font-weight: 470;
+  font-variation-settings: "SOFT" 45, "WONK" 1;
+  letter-spacing: -.025em;
 }
 
 .section-heading h2,
@@ -563,16 +582,18 @@ img { display: block; max-width: 100%; }
 .featured-case h3,
 .site-footer > div:first-child a {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 540;
   font-optical-sizing: auto;
-  letter-spacing: -.035em;
+  font-variation-settings: "SOFT" 24, "WONK" 1;
+  letter-spacing: -.028em;
 }
 
 .product-copy h3,
 .foundation-callout h3 {
   font-family: var(--font-display);
-  font-weight: 550;
-  letter-spacing: -.025em;
+  font-weight: 600;
+  font-variation-settings: "SOFT" 20, "WONK" 0;
+  letter-spacing: -.02em;
 }
 
 .about-copy .about-lead {
