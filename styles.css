@@ -63,6 +63,15 @@
 }
 
 @font-face {
+  font-family: "Bricolage Grotesque Variable";
+  src: url("assets/fonts/bricolage-grotesque-latin-variable.woff2") format("woff2-variations");
+  font-style: normal;
+  font-weight: 200 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Instrument Serif";
   src: url("assets/fonts/instrument-serif-latin-400-italic.woff2") format("woff2");
   font-style: italic;
@@ -89,8 +98,8 @@
 :root {
   --font-sans: "Manrope Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Newsreader Variable", "Iowan Old Style", Georgia, serif;
-  --font-display: "Space Grotesk Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-  --font-hero: "Syne Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --font-hero: var(--font-display);
   --ink: #111111;
   --paper: #fffdf8;
   --pink: #ffb3d7;
@@ -595,19 +604,21 @@ img { display: block; max-width: 100%; }
 .hero h1 {
   max-width: 900px;
   font-family: var(--font-hero);
-  font-weight: 650;
+  font-weight: 620;
+  font-stretch: 94%;
   font-optical-sizing: auto;
   font-variation-settings: normal;
-  line-height: .91;
-  letter-spacing: -.055em;
+  line-height: .92;
+  letter-spacing: -.045em;
 }
 
 .hero h1 em {
   font-family: var(--font-hero);
   font-style: normal;
-  font-weight: 480;
+  font-weight: 430;
+  font-stretch: 94%;
   font-variation-settings: normal;
-  letter-spacing: -.045em;
+  letter-spacing: -.035em;
 }
 
 .section-heading h2,
@@ -617,6 +628,7 @@ img { display: block; max-width: 100%; }
 .site-footer > div:first-child a {
   font-family: var(--font-display);
   font-weight: 560;
+  font-stretch: 96%;
   font-optical-sizing: auto;
   font-variation-settings: normal;
   letter-spacing: -.04em;
@@ -627,6 +639,7 @@ img { display: block; max-width: 100%; }
 .foundation-callout h3 {
   font-family: var(--font-display);
   font-weight: 590;
+  font-stretch: 96%;
   font-variation-settings: normal;
   letter-spacing: -.035em;
 }
